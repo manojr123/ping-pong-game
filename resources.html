@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<style>
+#div1 {
+height: 100px;
+width: 100px;
+padding: 10px;
+margin: 15px;
+border :1px solid black;
+font-size: 10px;
+}
+</style>
+<body>
+<div>
+<div id="div1">
+<h1>offset properties of HTML elements</h1>
+</div>
+</div>
+<script>
+const div1 = document.getElementById("div1");
+let msgHeight = "offsetHeight = " + div1.offsetHeight + "px";
+let msgWidth = "offsetWidth = " + div1.offsetWidth + "px";
+let msgTop = "offsetTop = " + div1.offsetTop + "px";
+let msgLeft = "offsetLeft = " + div1.offsetLeft + "px";
+console.log(msgHeight);
+console.log(msgWidth);
+console.log(msgTop);
+console.log(msgLeft);
+</script>
+</body>
+</html>

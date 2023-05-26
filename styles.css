@@ -1,0 +1,77 @@
+/* 
+    Creation : 21-Jan-2023 
+    Author   : Manoj Raghavan
+    File     : styles.css
+
+    Version history and changes:
+    1.0 - Creation - Ping Pong Game using HTML/CSS/JAVASCRIPT/LocalStorage
+    2.0 - 
+*/
+
+
+body {
+    background-color: black;
+
+}
+
+
+main {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height : 40px;
+    width : 40px;
+    align-self: flex-start;
+    margin-top: 30px;
+    margin-left : 10px;
+}
+
+/* Main Game Layout */
+#div-layout {
+    height : 500px;
+    width : 600px;
+    min-width : 600px;
+    /*margin : 25% 10% 25% 10%; */
+    margin : 30px 200px;
+    background-color: white;
+    position : relative;
+}
+
+/* Rod Styles */
+.rod {
+    height: 15px;
+    width : 120px;
+    border-radius: 5px;
+    color : pink;
+    text-align: center;
+    font-size: 12px;
+}
+
+#rod1 {
+    position : absolute;
+    top :0px;
+    background-color : blue;
+    left : 240px;
+    
+}
+#rod2 {
+    position : absolute;
+    top :485px;
+    background-color : purple;
+    left : 240px;
+
+}
+
+/* Ball Styles */
+#ball {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(190, 13, 13);
+    position : absolute;
+    top  : 470px;
+    left : 292.5px;
+}
